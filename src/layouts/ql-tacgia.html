@@ -1,0 +1,193 @@
+{{#extend "default"}}
+
+{{#content "main"}}
+
+
+<div class="content-panel-toggler">
+    <i class="os-icon os-icon-grid-squares-22"></i><span>Sidebar</span>
+</div>
+
+
+<div class="content-i">
+    <div class="content-box">
+        <div class="element-wrapper">
+            <h6 class="element-header">
+                Quản lý tác giả
+            </h6>
+            <div class="element-box">
+                <h5 class="form-header">
+                    Danh sách
+                </h5>
+                <div class="form-desc">Danh sách tác giả
+                </div>
+                <div class="controls-above-table">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a class="btn btn-sm btn-primary" href="#">Download CSV</a><a class="btn btn-sm btn-primary"
+                                                                                          href="#">Archive</a><a
+                                class="btn btn-sm btn-danger" href="#">Delete</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <form class="form-inline justify-content-sm-end">
+                                <input class="form-control form-control-sm rounded bright" placeholder="Search"
+                                       type="text"><select class="form-control form-control-sm rounded bright">
+                                <option selected="selected" value="">
+                                    Select Status
+                                </option>
+                                <option value="Pending">
+                                    Pending
+                                </option>
+                                <option value="Active">
+                                    Active
+                                </option>
+                                <option value="Cancelled">
+                                    Cancelled
+                                </option>
+                            </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-lightborder">
+                        <thead>
+                        <tr>
+                            <th class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </th>
+                            <th>
+                               Tên tác giả
+                            </th>
+                            <th>
+                                Bài viết
+                            </th>
+                            <th>
+                                Quốc gia
+                            </th>
+                            <th class="text-center">
+                                Trạng thái
+                            </th>
+                            <th class="text-right">
+                                Order Total
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                John Mayers
+                            </td>
+                            <td>
+                                12
+                            </td>
+                            <td>
+                                <img alt="" src="assets/img/flags-icons/us.png" width="25px">
+                            </td>
+                            <td class="text-center">
+                                <div class="status-pill green" data-title="Complete" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                $354
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Kelly Brans
+                            </td>
+                            <td>
+                                45
+                            </td>
+                            <td>
+                                <img alt="" src="assets/img/flags-icons/ca.png" width="25px">
+                            </td>
+                            <td class="text-center">
+                                <div class="status-pill red" data-title="Cancelled" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                $94
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Tim Howard
+                            </td>
+                            <td>
+                                112
+                            </td>
+                            <td>
+                                <img alt="" src="assets/img/flags-icons/uk.png" width="25px">
+                            </td>
+                            <td class="text-center">
+                                <div class="status-pill green" data-title="Complete" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                $156
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Joe Trulli
+                            </td>
+                            <td>
+                                1,256
+                            </td>
+                            <td>
+                                <img alt="" src="assets/img/flags-icons/es.png" width="25px">
+                            </td>
+                            <td class="text-center">
+                                <div class="status-pill yellow" data-title="Pending" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                $1,120
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Fred Kolton
+                            </td>
+                            <td>
+                                74
+                            </td>
+                            <td>
+                                <img alt="" src="assets/img/flags-icons/fr.png" width="25px">
+                            </td>
+                            <td class="text-center">
+                                <div class="status-pill green" data-title="Complete" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                $74
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{/content}}
+
+
+{{/extend}}
