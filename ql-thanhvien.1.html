@@ -175,7 +175,7 @@
     
     
                         <li >
-                            <a href="quangcao.html">
+                            <a href="index.html">
                                 <div class="icon-w">
                                     <div class="os-icon os-icon-pie-chart-1"></div>
                                 </div>
@@ -199,120 +199,165 @@
 
 
 <div class="content-i">
-    <div class="content-box" style="padding: 0px">
-        <div class="app-email-w">
-            <div class="app-email-i">
-                <div class="ae-content-w">
-
-                    <div class="ae-content">
-                        <div class="aec-full-message-w show-pack">
-
-
-                            <div class="aec-full-message">
-
-
-                                <div class="message-content">
-
-
-
-
-                                    <form novalidate="true">
-                                        <h5 class="form-header">
-                                            Tạo bài viết
-                                        </h5>
-
-
-                                        <div class="form-group ">
-                                            <label for=""> Tiêu đề bài viết</label><input class="form-control"
-                                                                                          placeholder="Nhập tiêu đề tại đây"
-                                                                                          type="text">
-                                        </div>
-
-                                        <div class="form-group ">
-                                            <label for=""> Nội dung bài viết</label>
-
-                                            <textarea cols="80" id="ckeditor1" name="ckeditor1" rows="10"></textarea>
-
-                                        </div>
-
-                                        <div class="form-group ">
-                                                <label for=""> Mô tả bài viết</label>
-    
-                                                <textarea cols="80" class="form-control" rows="5"></textarea>
-    
-                                            </div>
-    
-                                            <div class="form-group">
-                                                <label for=""> Hình ảnh đại diện</label>
-                                                <input type="file" class="form-control">
-                                            </div>
-    
-                                            <div class="form-group">
-                                                <label for=""> Chọn chuyên mục</label><select class="form-control select2">
-                                                <option selected="true">
-                                                    Thời sự
-                                                </option>
-                                                <option selected="true">
-                                                    Kinh doanh
-                                                </option>
-                                                <option>
-                                                    Sức khỏe
-                                                </option>
-                                                <option>
-                                                    Học hành
-                                                </option>
-                                                <option>
-                                                    Nông nghiệp
-                                                </option>
-    
-                                                <option>
-                                                    Tivi
-                                                </option>
-                                            </select>
-                                            </div>
-    
-    
-                                            <div class="form-group">
-                                                <label for=""> Chọn thẻ</label><select class="form-control select2" multiple="true">
-                                                <option selected="true">
-                                                    Chiến tranh triều tiên
-                                                </option>
-                                                <option selected="true">
-                                                    Giáo dục đại học
-                                                </option>
-                                                <option>
-                                                    Đoàn thanh niên
-                                                </option>
-                                                <option>
-                                                    Trải nghiệm
-                                                </option>
-                                                <option>
-                                                    Giải trí
-                                                </option>
-                                            </select>
-                                            </div>
-    
-                                            <div class="form-group ">
-                                                <label for=""> SEO meta</label><input class="form-control"
-                                                                                              placeholder=""
-                                                                                              type="text">
-                                            </div>
-    
-                                            <div class="form-buttons-w text-right" style="text-align: right">
-                                                <button class="btn btn-default" type="submit"> Hủy</button>
-                                                <button class="btn btn-success" type="submit"> Duyệt bài viết</button>
-                                                <button class="btn btn-primary" type="submit"> Đăng bài viết</button>
-                                            </div>
-
-
-                                    </form>
-
-
-
-                                </div>
-                            </div>
+    <div class="content-box">
+        <div class="element-wrapper">
+            <h6 class="element-header">
+                Quản lý thành viên
+            </h6>
+            <div class="element-box">
+                <h5 class="form-header">
+                    Danh sách
+                </h5>
+                <div class="form-desc">Danh sách thành viên
+                </div>
+                <div class="controls-above-table">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a class="btn btn-sm btn-primary" href="#">Thêm mới thành viên</a><a class="btn btn-sm btn-primary"
+                                                                                          href="#">Xuất danh sách</a><a
+                                class="btn btn-sm btn-danger" href="#">Xóa</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <form class="form-inline justify-content-sm-end">
+                                <input class="form-control form-control-sm rounded bright" placeholder="Tìm kiếm"
+                                       type="text"><select class="form-control form-control-sm rounded bright">
+                                <option selected="selected" value="">
+                                    Select Status
+                                </option>
+                                <option value="Pending">
+                                    Pending
+                                </option>
+                                <option value="Active">
+                                    Active
+                                </option>
+                                <option value="Cancelled">
+                                    Cancelled
+                                </option>
+                            </select>
+                            </form>
                         </div>
                     </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-lightborder">
+                        <thead>
+                        <tr>
+                            <th class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </th>
+                            <th>
+                               Tên thành viên
+                            </th>
+                            <th>
+                               Thư điện tử
+                            </th>
+                          
+                            <th class="text-center">
+                                Trạng thái
+                            </th>
+                            <th class="text-right">
+                               Vai trò
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Bùi Kim Quyên
+                            </td>
+                            <td>
+                                abc@gmail.com
+                            </td>
+                        
+                            <td class="text-center">
+                                <div class="status-pill green" data-title="Complete" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                Thành viên
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Võ An Phước Thiện
+                            </td>
+                            <td>
+                                abc@gmail.com
+                            </td>
+                        
+                            <td class="text-center">
+                                <div class="status-pill red" data-title="Cancelled" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                Thành viên
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Dương Hoài Phương
+                            </td>
+                            <td>
+                                abc@gmail.com
+                            </td>
+                         
+                            <td class="text-center">
+                                <div class="status-pill green" data-title="Complete" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                Thành viên
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Nguyễn Thế Vinh
+                            </td>
+                            <td>
+                                abc@gmail.com
+                            </td>
+                         
+                            <td class="text-center">
+                                <div class="status-pill yellow" data-title="Pending" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                Thành viên
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-control" type="checkbox">
+                            </td>
+                            <td>
+                                Trương Gia Mẫn
+                            </td>
+                            <td>
+                                abc@gmail.com
+                            </td>
+                       
+                            <td class="text-center">
+                                <div class="status-pill green" data-title="Complete" data-toggle="tooltip"
+                                     data-original-title="" title=""></div>
+                            </td>
+                            <td class="text-right">
+                                Thành viên
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
